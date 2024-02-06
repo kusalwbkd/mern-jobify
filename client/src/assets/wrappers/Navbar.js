@@ -10,8 +10,9 @@ const Wrapper = styled.nav`
   .nav-center {
     display: flex;
     width: 90vw;
-    align-items: center;
-    justify-content: space-between;
+   align-items: center;
+   justify-content: space-between;
+  
   }
   .toggle-btn {
     background: transparent;
@@ -31,11 +32,11 @@ const Wrapper = styled.nav`
     width: 100px;
   }
   .btn-container {
-    display: flex;
+   display: flex;
     align-items: center;
   }
   @media (min-width: 992px) {
-    position: sticky;
+  position: sticky;
     top: 0;
     .nav-center {
       width: 90%;
@@ -44,7 +45,7 @@ const Wrapper = styled.nav`
       display: none;
     }
     .logo-text {
-      display: block;
+     display: block;
     }
   }
 `;

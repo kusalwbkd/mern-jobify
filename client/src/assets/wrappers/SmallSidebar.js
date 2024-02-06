@@ -7,7 +7,7 @@ const Wrapper = styled.aside`
   .sidebar-container {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +59,8 @@ const Wrapper = styled.aside`
     color: var(--primary-500);
   }
   .icon {
-    font-size: 1.5rem;
-    margin-right: 1rem;
+   font-size: 1.5rem;
+   margin-right: 1rem;
     display: grid;
     place-items: center;
   }
